@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "NeoBar",
+    "version": "1.0",
+    "permissions": [],
+    "sidebar_action": {
+      "default_panel": "popup.html"
+    }
+  }
+  

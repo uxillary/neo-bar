@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5ab;  /* Light Yellow */
+    color: #333;  /* Dark Gray */
+    padding: 10px;
+    margin: 0;
+  }
+  
+  h1 {
+    background-color: #a87dc2;  /* Purple */
+    color: #fff;  /* White */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Quick Links Styles */
+  #quickLinks {
+    background-color: #fcf3cf;  /* Very Light Yellow */
+    padding: 10px;
+    border: 1px solid #ccc;  /* Light Gray */
+  }
+  
+  #quickLinks a {
+    color: #0073e6;  /* Blue */
+    text-decoration: none;
+  }
+  
+  #quickLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Time Zone Styles */
+  #timeInfo {
+    background-color: #e6e6e6;  /* Light Gray */
+    padding: 10px;
+    border: 1px solid #ccc;  /* Light Gray */
+    margin-top: 10px;
+  }
+
+ #healingSprings {
+    width: 150px;
+    height: 150px;
+    background-color: #e6f7ff; /* Light Blue */
+    border: 2px solid #0073e6; /* Blue */
+    text-align: center;
+  }
+  
+  #healingSprings img {
+    max-width: 100%;
+    max-height: 80%;
+  }
+  
+  #healingSprings p {
+    margin: 0;
+  }
+  

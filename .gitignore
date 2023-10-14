@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+# .gitignore
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Node Modules
+node_modules/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Temporary files
+*.tmp
+*.swp
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# IDE and editor files
+.idea/
+.vscode/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Build folder
+/dist

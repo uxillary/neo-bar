@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeoBar</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Neopets Sidebar</h1>
+
+    <!-- Neopets Quick Links -->
+    <div id="quickLinks">
+      <a href="https://www.neopets.com/inventory.phtml" target="_blank">Neopets Inventory</a>
+    </div>
+  
+    <!-- Time Zone Info -->
+    <div id="timeInfo">
+      <p>NST (Neopets Time): <span id="nstTime"></span></p>
+      <p>GMT: <span id="gmtTime"></span></p>
+    </div>
+    
+    <!-- Healing Springs Timer and Link -->
+    <div id="healingSprings">
+        <a href="https://www.neopets.com/faerieland/springs.phtml" target="_blank">
+        <img src="healing_springs_image.jpg" alt="Healing Springs" />
+        </a>
+        <p>Next Visit: <span id="healingTimer">30:00</span></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
