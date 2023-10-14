@@ -1,10 +1,14 @@
 {
     "manifest_version": 3,
     "name": "NeoBar",
-    "version": "1.0",
-    "permissions": [],
-    "sidebar_action": {
-      "default_panel": "popup.html"
+    "version": "1.1",
+    "description": "A sidebar extension to aid with playing Neopets.",
+    "permissions": ["notifications"],
+    "action": {
+        "default_popup": "popup.html"
+      },
+      "background": {
+        "service_worker": "background.js"
     }
   }
   
