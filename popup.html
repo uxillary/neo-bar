@@ -4,8 +4,14 @@
   <title>NeoBar</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body id="main">
     <h1>Neopets Sidebar</h1>
+
+    <!-- Time Zone Info -->
+    <div id="timeInfo">
+        <p>NST: <span id="nstTime"></span></p>
+        <p>GMT: <span id="gmtTime"></span></p>
+    </div>
 
     <!-- Neopets Quick Links -->
     <div id="quickLinks">
@@ -31,12 +37,6 @@
         <!-- Add more dailies here -->
         </ul>
     </div>
-  
-    <!-- Time Zone Info -->
-    <div id="timeInfo">
-      <p>NST (Neopets Time): <span id="nstTime"></span></p>
-      <p>GMT: <span id="gmtTime"></span></p>
-    </div>
     
     <!-- Healing Springs Timer and Link -->
     <div id="healingSprings">
@@ -45,7 +45,6 @@
         </a>
         <p>Next Visit: <span id="healingTimer">30:00</span></p>
     </div>
-
     <script src="popup.js"></script>
 </body>
 </html>

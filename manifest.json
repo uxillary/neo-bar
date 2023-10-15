@@ -5,10 +5,11 @@
     "description": "A sidebar extension to aid with playing Neopets.",
     "permissions": ["notifications"],
     "action": {
-        "default_popup": "popup.html"
+        "default_panel": "popup.html",
+        "default_icon": "img/icon.gif"
       },
       "background": {
         "service_worker": "background.js"
+      }
     }
-  }
   
